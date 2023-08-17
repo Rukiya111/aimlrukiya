@@ -1,0 +1,11 @@
+import numpy as np
+arr=np.array([[1,2,3],[3,4,5]])
+print("Array dimension ",arr.ndim)
+print("Sum of array ",arr.sum())
+print("sum of array with Axis1 ",arr.sum(axis=1))
+print("Max of Array ",arr.max())
+print("Min of Array ",arr.min())
+print("Max of Array with Axis1 ",arr.max(axis=1))
+print("Min of Array with Axis1 ",arr.min(axis=1))
+print("Cumulative sum ",arr.cumsum())
+print("Array transpose ",arr.T)
