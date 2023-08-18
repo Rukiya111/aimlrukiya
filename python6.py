@@ -38,3 +38,13 @@ from functools import reduce
 lst2=[1,2,3,4,5,6]
 y=reduce(lambda x,y:x if(x<y) else y,lst)
 print(y)
+
+l1=[2,3,4,1]
+l2=[1,2,3,4]
+l3=[1,4,2,3]
+l=list(map(lambda a,b,c : a+b+c,l1,l2,l3))
+print(l)
+
+fruits=['mango','orange','apple','kivi']
+f=list(filter(lambda x: 'g' in x, fruits))
+print(f)
